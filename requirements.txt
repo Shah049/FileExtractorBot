@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-groq
+faiss-cpu
+python-docx
+pytesseract
+pillow
+openpyxl
+beautifulsoup4
+requests
+pypdf
+sentence-transformers
+streamlit
