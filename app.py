@@ -72,9 +72,11 @@ def load_embedding_model():
 
 
 @st.cache_resource
+@st.cache_resource
 def load_llm(api_key):
     """Loads the Groq LLM model."""
-    return ChatGroq(api_key=api_key, model_name="llama3-70b-8192", temperature=0.3)
+    return ChatGroq(api_key=api_key, model_name="llama-3.3-70b-versatile", temperature=0.3)
+
 
 
 # --- Helper Functions for Text Extraction ---
