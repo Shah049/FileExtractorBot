@@ -8,7 +8,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
-from langchain.chains import ConversationalRetrievalChain
+from langchain_community.chains import ConversationalRetrievalChain
 from langchain.schema import Document as LCDocument
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings import HuggingFaceEmbeddings
