@@ -10,4 +10,4 @@ beautifulsoup4
 requests
 pypdf
 sentence-transformers
-streamlit
+streamlit>=1.38.0
