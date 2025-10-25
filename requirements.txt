@@ -1,6 +1,8 @@
 langchain==0.1.16
-langchain-community
-langchain-groq
+langchain-core==0.1.52
+langchain-community==0.0.34
+langchain-openai==0.0.8
+langchain-groq==0.0.1
 faiss-cpu
 python-docx
 pytesseract
@@ -10,4 +12,4 @@ beautifulsoup4
 requests
 pypdf
 sentence-transformers
-streamlit>=1.38.0
+streamlit==1.38.0
